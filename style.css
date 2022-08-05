@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  hsl(219, 30%, 18%);
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    opacity:   0.6;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway",sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.nav .info a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+
+}
+.intro h1{
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.intro p{
+    margin-bottom: 30px;
+    opacity: 0.6;
+}
+.intro a{
+    background: hsl(198, 60%, 50%);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 70px;
+    border-radius: 20px;
+    margin-top: 300px;
+}
+.bg img{
+    z-index: -1;
+
+}
+.body-2{
+    position: relative;
+    color: #fff;
+    background:hsl(218, 28%, 13%); 
+    /* background-image: url(images/bg-curvy-desktop.svg); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    z-index: 1;
+    
+}
+
+.body-2 .icon-1{
+    text-align: center;
+    padding: 50px;
+}
+.body-2 .any-sec{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.body-2 .time-file{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.body-2 .intro-2{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.body-2 .intro-2 .intro-2-img img{
+    margin-right: 100px;
+}
+.body-2 .intro-2 .intro-2-info{
+    margin-top: 80px;
+}
+.body-2 .intro-2 .intro-2-info .arrow {
+    display: flex;
+}
+.body-2 .intro-2 .intro-2-info .arrow img{
+    padding-left: 6px;
+}
+.body-2 .intro-2 .intro-2-info .arrow a{
+    color: hsl(176, 68%, 64%);
+   text-decoration: none;
+}
+.body-2 .intro-2 .line{
+    position: absolute;
+    height: 1px;
+    width: 160px;
+    background:hsl(176, 68%, 64%) ;
+    top: 1135px;
+    left: 845px;
+
+}
+.body-3{
+    background:hsl(218, 28%, 13%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    color: #fff;
+}
+.body-3 .profiles{
+    display: flex;
+    flex-direction: row;
+}
+.body-3 .profile-1{
+    background-color: hsl(219, 30%, 18%);
+    margin-top: 120px;
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 16px;
+}
+.body-3 .profile-1 .profile-2{
+    display: flex;
+    flex-direction:row ;
+}
+.body-3 .profile-1 .profile-2 .pp img{
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    margin-top: 27px;
+    margin-right: 10px;
+}
+.body-3 .profile-1 .profile-2 .name h5{
+    margin-bottom: -10px;
+}
+.body-3 .profile-1 .profile-2 .name p{
+    font-size: 12px;
+}
+.body-3 .email{
+    width: 800px;
+    border-radius: 10px;
+    background-color: hsl(219, 30%, 18%);
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.body-3 .email .submit{
+    margin-top: 30px;
+}
+.body-3 .email .submit input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.body-3 .email .submit button{
+    background: hsl(198, 60%, 50%);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
